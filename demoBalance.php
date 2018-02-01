@@ -1,3 +1,5 @@
+<?php
+
 // include iota php library
 include('./library.php');
 
@@ -13,3 +15,5 @@ if ($value != "ERROR") {
 } else {
     echo "There was an error. Address may be wrong or node url could be down.";
 }
+
+?>
