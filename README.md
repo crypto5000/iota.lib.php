@@ -74,5 +74,5 @@ if ($value != "ERROR") {
 The library currently has the following functions:
 1) getTransactionHash($inputAddress,$url) - takes an address and returns the associated transaction hashes.
 2) getTrytes($inputHash,$url) - takes a transaction hash and returns the trytes.
-3) getDataFromTrytes($trytes) - takes the trytees and returns transaction data including (transaction address, signatureMessageFragment, tag, value)
+3) getDataFromTrytes($trytes) - takes the trytes and returns transaction data including (transaction address, signatureMessageFragment, tag, value)
 4) getBalances($inputAddress,$url) - takes an address and returns the confirmed balance
