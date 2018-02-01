@@ -1,3 +1,5 @@
+<?php
+
 // include iota php library
 include('./library.php');
 
