@@ -47,7 +47,7 @@ if ($txInput != "ERROR") {
 }
 ```
 ## Setting Light Server Url
-The library currently uses nodes.iota.cafe (for https) andeugene.iota.community (for http). To change this server, simply set an url variable in your php code.
+The library currently uses nodes.iota.cafe (for https) and eugene.iota.community (for http). To change this server, simply set a url variable in your php code.
 
 ```php
 // include iota php library
@@ -70,13 +70,9 @@ if ($value != "ERROR") {
 }
 ```
 
-## Available Functions
+## Available Library Functions
 The library currently has the following functions:
 1) getTransactionHash($inputAddress,$url) - takes an address and returns the associated transaction hashes.
 2) getTrytes($inputHash,$url) - takes a transaction hash and returns the trytes.
-3) getDataFromTrytes($trytes) - takes the trytees and returns transaction data
-  - transaction address
-  - signatureMessageFragment
-  - tag
-  - value
+3) getDataFromTrytes($trytes) - takes the trytees and returns transaction data including (transaction address, signatureMessageFragment, tag, value)
 4) getBalances($inputAddress,$url) - takes an address and returns the confirmed balance
