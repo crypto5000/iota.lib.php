@@ -1,7 +1,7 @@
 # iota.lib.php
 A small php library that replicates some of the features of the IOTA javascript library. It takes a Tangle address and returns either a confirmed balance or the transaction data associated with that address.
 
-This library is a server side implementation in php of some of the features of iota.lib.js. It is used to retrieve transaction
+This library is a server side implementation in php of some of the features of the iota.lib.js framework. It is used to retrieve transaction data from the Tangle.
 
 ## How to Use (see demo files for full code)
 1) Include the library.php file in your code
